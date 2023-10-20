@@ -12,8 +12,6 @@ export const paperMainStyle = (photo) => ({
 });
 
 export const boxMainStyle = {
-  display: 'flex',
-  justifyContent: 'right',
   position: 'relative',
   p: { xs: 3, md: 6 },
   pr: { md: 0 },
