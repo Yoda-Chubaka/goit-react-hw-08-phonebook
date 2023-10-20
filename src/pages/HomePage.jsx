@@ -15,7 +15,7 @@ export default function HomePage() {
       <Box sx={boxMainStyle}>
         {isLoggedIn ? (<><Typography component="h1" variant="h3" color="inherit" gutterBottom>
           Hi, {user.name}! <br />
-          Welcome to your phonebook🤗 </Typography>
+          Welcome to your phonebook! </Typography>
         </>) :
           (<><Typography component="h1" variant="h3" color="inherit" gutterBottom>
             Hello! I'm your phonebook. </Typography>

@@ -95,7 +95,7 @@ export const Form = () => {
                     onChange={onChangeInput}
                 />
                 <TextField
-                    sx={{backgroundColor: 'rgba(208, 224, 241, 0.822)'}}
+                    sx={{ backgroundColor: 'rgba(208, 224, 241, 0.822)', outline: 0}}
                     inputProps={{ inputMode: 'tel', pattern: '[0-9]*' }} 
                     margin="normal"
                     fullWidth
